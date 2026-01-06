@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Разработка лендингов быстро и недорого. От 5000₽. Срок от 3 дней. Колегов Олег Алексеевич.">
+    <title>Лендинги под ключ | Колегов Олег — Быстро и Недорого</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <a href="#" class="logo">
+                <span class="logo-icon">⚡</span>
+                <span class="logo-text">LandingPro</span>
+            </a>
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li><a href="#calculator">Калькулятор</a></li>
+                    <li><a href="#advantages">Преимущества</a></li>
+                    <li><a href="#portfolio">Портфолио</a></li>
+                    <li><a href="#about">Обо мне</a></li>
+                    <li><a href="#contacts">Контакты</a></li>
+                </ul>
+            </nav>
+            <button class="burger" aria-label="Меню">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu">
+        <ul class="mobile-nav-list">
+            <li><a href="#calculator">Калькулятор</a></li>
+            <li><a href="#advantages">Преимущества</a></li>
+            <li><a href="#portfolio">Портфолио</a></li>
+            <li><a href="#about">Обо мне</a></li>
+            <li><a href="#contacts">Контакты</a></li>
+        </ul>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-badge animate-fade-in">⚡ Быстрый старт проекта</div>
+                <h1 class="hero-title animate-fade-in">
+                    Лендинги <span class="highlight">быстро</span> и <span class="highlight">недорого</span>
+                </h1>
+                <p class="hero-subtitle animate-fade-in">
+                    От идеи до запуска за 3-5 дней. Работаю строго по ТЗ, открыт к вашим идеям. Гибкий подход и несколько вариантов решения.
+                </p>
+                <div class="hero-price animate-fade-in">
+                    <span class="price-from">от</span>
+                    <span class="price-value">5 000 ₽</span>
+                    <span class="price-divider">•</span>
+                    <span class="price-time">Срок от 3 дней</span>
+                </div>
+                <div class="hero-buttons animate-fade-in">
+                    <a href="#calculator" class="btn btn-primary">Рассчитать стоимость</a>
+                    <a href="#contacts" class="btn btn-secondary">Связаться</a>
+                </div>
+            </div>
+            <div class="hero-visual animate-fade-in">
+                <div class="hero-card">
+                    <div class="hero-card-header">
+                        <span class="dot red"></span>
+                        <span class="dot yellow"></span>
+                        <span class="dot green"></span>
+                    </div>
+                    <div class="hero-card-body">
+                        <div class="code-line"><span class="code-tag">&lt;section</span> <span class="code-attr">class</span>=<span class="code-value">"hero"</span><span class="code-tag">&gt;</span></div>
+                        <div class="code-line indent"><span class="code-tag">&lt;h1&gt;</span>Ваш лендинг<span class="code-tag">&lt;/h1&gt;</span></div>
+                        <div class="code-line indent"><span class="code-tag">&lt;p&gt;</span>Готов за 3 дня<span class="code-tag">&lt;/p&gt;</span></div>
+                        <div class="code-line"><span class="code-tag">&lt;/section&gt;</span></div>
+                        <div class="code-cursor"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Calculator Section -->
+    <section class="calculator" id="calculator">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Калькулятор стоимости</h2>
+                <p class="section-subtitle">Рассчитайте примерную стоимость вашего лендинга</p>
+            </div>
+            <div class="calculator-wrapper">
+                <div class="calculator-form">
+                    <div class="calc-group">
+                        <label class="calc-label">Количество секций</label>
+                        <div class="calc-options">
+                            <label class="calc-radio">
+                                <input type="radio" name="sections" value="0" checked>
+                                <span class="radio-custom"></span>
+                                <span class="radio-text">1-5 секций</span>
+                            </label>
+                            <label class="calc-radio">
+                                <input type="radio" name="sections" value="1000">
+                                <span class="radio-custom"></span>
+                                <span class="radio-text">6-10 секций</span>
+                            </label>
+                            <label class="calc-radio">
+                                <input type="radio" name="sections" value="2000">
+                                <span class="radio-custom"></span>
+                                <span class="radio-text">Более 10 секций</span>
+                            </label>
+                        </div>
+                    </div>
+
+                    <div class="calc-group">
+                        <label class="calc-label">Дополнительные опции</label>
+                        <div class="calc-checkboxes">
+                            <label class="calc-checkbox">
+                                <input type="checkbox" name="adaptive" value="500">
+                                <span class="checkbox-custom"></span>
+                                <span class="checkbox-text">Адаптивная версия (мобильные устройства)</span>
+                                <span class="checkbox-price">+500 ₽</span>
+                            </label>
+                            <label class="calc-checkbox">
+                                <input type="checkbox" name="animations" value="500">
+                                <span class="checkbox-custom"></span>
+                                <span class="checkbox-text">Анимации и эффекты</span>
+                                <span class="checkbox-price">+500 ₽</span>
+                            </label>
+                            <label class="calc-checkbox">
+                                <input type="checkbox" name="form" value="300">
+                                <span class="checkbox-custom"></span>
+                                <span class="checkbox-text">Форма обратной связи</span>
+                                <span class="checkbox-price">+300 ₽</span>
+                            </label>
+                            <label class="calc-checkbox">
+                                <input type="checkbox" name="integration" value="700">
+                                <span class="checkbox-custom"></span>
+                                <span class="checkbox-text">Интеграция (CRM, аналитика)</span>
+                                <span class="checkbox-price">+700 ₽</span>
+                            </label>
+                            <label class="calc-checkbox">
+                                <input type="checkbox" name="urgent" value="1000">
+                                <span class="checkbox-custom"></span>
+                                <span class="checkbox-text">Срочность (до 3 дней)</span>
+                                <span class="checkbox-price">+1000 ₽</span>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="calculator-result">
+                    <div class="result-card">
+                        <div class="result-label">Примерная стоимость:</div>
+                        <div class="result-price">
+                            <span class="result-value" id="totalPrice">5 000</span>
+                            <span class="result-currency">₽</span>
+                        </div>
+                        <div class="result-note">Финальная цена после обсуждения деталей проекта</div>
+                        <a href="#contacts" class="btn btn-primary btn-block">Заказать лендинг</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Advantages Section -->
+    <section class="advantages" id="advantages">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Почему выбирают меня</h2>
+                <p class="section-subtitle">6 причин доверить мне разработку вашего лендинга</p>
+            </div>
+            <div class="advantages-grid">
+                <div class="advantage-card">
+                    <div class="advantage-icon">⚡</div>
+                    <h3 class="advantage-title">Скорость</h3>
+                    <p class="advantage-text">Быстро приступаю к работе и выполняю проекты в кратчайшие сроки. Простой лендинг готов за 3-5 дней.</p>
+                </div>
+                <div class="advantage-card">
+                    <div class="advantage-icon">💰</div>
+                    <h3 class="advantage-title">Доступные цены</h3>
+                    <p class="advantage-text">Честное ценообразование без скрытых платежей. Качественный результат по разумной цене от 5000₽.</p>
+                </div>
+                <div class="advantage-card">
+                    <div class="advantage-icon">📋</div>
+                    <h3 class="advantage-title">Работа по ТЗ</h3>
+                    <p class="advantage-text">Строго следую техническому заданию. Вы получаете именно то, что заказывали, без сюрпризов.</p>
+                </div>
+                <div class="advantage-card">
+                    <div class="advantage-icon">🔄</div>
+                    <h3 class="advantage-title">Гибкость</h3>
+                    <p class="advantage-text">Гибко подхожу к проблемам и предлагаю несколько вариантов решения. Подстраиваюсь под ваши сроки.</p>
+                </div>
+                <div class="advantage-card">
+                    <div class="advantage-icon">💡</div>
+                    <h3 class="advantage-title">Открыт к идеям</h3>
+                    <p class="advantage-text">Готов выслушать и реализовать ваши идеи. Быстро нахожу общий язык с заказчиками.</p>
+                </div>
+                <div class="advantage-card">
+                    <div class="advantage-icon">🚀</div>
+                    <h3 class="advantage-title">Готов к вызовам</h3>
+                    <p class="advantage-text">Не боюсь сложных задач и нестандартных решений. Каждый проект — это новый интересный опыт.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="portfolio" id="portfolio">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Портфолио</h2>
+                <p class="section-subtitle">Примеры выполненных работ</p>
+            </div>
+            <div class="portfolio-grid">
+                <div class="portfolio-card">
+                    <div class="portfolio-image" style="background: linear-gradient(135deg, #FF6B35 0%, #FF8F65 100%);">
+                        <div class="portfolio-overlay">
+                            <span class="portfolio-icon">🍕</span>
+                        </div>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3 class="portfolio-title">ДоставкаПро</h3>
+                        <p class="portfolio-desc">Лендинг для службы доставки еды. 7 секций, анимации, форма заказа с выбором блюд, интеграция с CRM.</p>
+                        <div class="portfolio-tags">
+                            <span class="tag">7 секций</span>
+                            <span class="tag">Анимации</span>
+                            <span class="tag">CRM</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-card">
+                    <div class="portfolio-image" style="background: linear-gradient(135deg, #1A1A1A 0%, #333333 100%);">
+                        <div class="portfolio-overlay">
+                            <span class="portfolio-icon">🔧</span>
+                        </div>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3 class="portfolio-title">АвтоМастер</h3>
+                        <p class="portfolio-desc">Сайт автосервиса с калькулятором услуг и онлайн-записью. Каталог услуг, отзывы клиентов, карта проезда.</p>
+                        <div class="portfolio-tags">
+                            <span class="tag">Калькулятор</span>
+                            <span class="tag">Запись онлайн</span>
+                            <span class="tag">Каталог</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-card">
+                    <div class="portfolio-image" style="background: linear-gradient(135deg, #6366F1 0%, #8B5CF6 100%);">
+                        <div class="portfolio-overlay">
+                            <span class="portfolio-icon">📚</span>
+                        </div>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3 class="portfolio-title">СкиллАп</h3>
+                        <p class="portfolio-desc">Лендинг для онлайн-курсов. Таймер акции, программа курса, отзывы учеников, секция с преподавателями.</p>
+                        <div class="portfolio-tags">
+                            <span class="tag">Таймер</span>
+                            <span class="tag">Отзывы</span>
+                            <span class="tag">Адаптив</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-card">
+                    <div class="portfolio-image" style="background: linear-gradient(135deg, #EC4899 0%, #F472B6 100%);">
+                        <div class="portfolio-overlay">
+                            <span class="portfolio-icon">🎉</span>
+                        </div>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3 class="portfolio-title">EventTime</h3>
+                        <p class="portfolio-desc">Сайт event-агентства с галереей мероприятий, формой брифа и калькулятором бюджета праздника.</p>
+                        <div class="portfolio-tags">
+                            <span class="tag">Галерея</span>
+                            <span class="tag">Форма брифа</span>
+                            <span class="tag">Калькулятор</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about-wrapper">
+                <div class="about-image">
+                    <div class="about-avatar">
+                        <span class="avatar-emoji">👨‍💻</span>
+                    </div>
+                    <div class="about-decoration"></div>
+                </div>
+                <div class="about-content">
+                    <h2 class="section-title">Обо мне</h2>
+                    <h3 class="about-name">Колегов Олег Алексеевич</h3>
+                    <p class="about-text">
+                        Привет! Я — веб-разработчик, специализирующийся на создании лендингов. Мой подход — это скорость, качество и доступная цена.
+                    </p>
+                    <p class="about-text">
+                        Я работаю строго по техническому заданию, но всегда открыт к вашим идеям и предложениям. Быстро нахожу общий язык с заказчиками и оперативно приступаю к разработке.
+                    </p>
+                    <p class="about-text">
+                        Гибко подхожу к решению проблем — предложу несколько вариантов и помогу выбрать оптимальный. Подстраиваюсь под ваши сроки и не боюсь новых вызовов.
+                    </p>
+                    <div class="about-stats">
+                        <div class="stat-item">
+                            <span class="stat-value">50+</span>
+                            <span class="stat-label">Проектов</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-value">3-5</span>
+                            <span class="stat-label">Дней на проект</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-value">100%</span>
+                            <span class="stat-label">Довольных клиентов</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contacts Section -->
+    <section class="contacts" id="contacts">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Связаться со мной</h2>
+                <p class="section-subtitle">Готов обсудить ваш проект прямо сейчас</p>
+            </div>
+            <div class="contacts-wrapper">
+                <div class="contacts-info">
+                    <div class="contact-card">
+                        <div class="contact-icon">📱</div>
+                        <div class="contact-details">
+                            <span class="contact-label">Telegram</span>
+                            <a href="https://t.me/kidalt_akonit" class="contact-value" target="_blank">@kidalt_akonit</a>
+                        </div>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-icon">📧</div>
+                        <div class="contact-details">
+                            <span class="contact-label">Email</span>
+                            <a href="mailto:kolegovoleg@gmail.com" class="contact-value">kolegovoleg@gmail.com</a>
+                        </div>
+                    </div>
+                    <div class="contact-cta">
+                        <p>Предпочитаю общение в Telegram — отвечаю быстро!</p>
+                        <a href="https://t.me/kidalt_akonit" class="btn btn-primary btn-lg" target="_blank">
+                            <span>Написать в Telegram</span>
+                            <span class="btn-arrow">→</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="contacts-form">
+                    <form action="https://formspree.io/f/xpwzgvvv" method="POST" class="form">
+                        <div class="form-group">
+                            <label for="name" class="form-label">Ваше имя</label>
+                            <input type="text" id="name" name="name" class="form-input" placeholder="Иван Иванов" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email" class="form-label">Email или Telegram</label>
+                            <input type="text" id="email" name="email" class="form-input" placeholder="ivan@example.com или @username" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message" class="form-label">Расскажите о проекте</label>
+                            <textarea id="message" name="message" class="form-textarea" placeholder="Опишите, какой лендинг вам нужен..." rows="4" required></textarea>
+                        </div>
+                        <input type="hidden" name="_subject" value="Новая заявка с сайта LandingPro">
+                        <button type="submit" class="btn btn-primary btn-block">Отправить заявку</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <a href="#" class="logo">
+                    <span class="logo-icon">⚡</span>
+                    <span class="logo-text">LandingPro</span>
+                </a>
+                <p class="footer-text">© 2026 Колегов Олег Алексеевич. Разработка лендингов.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
